@@ -99,7 +99,8 @@ class CityListTest {
 
         assertEquals(3, cityList.countCities());
     }
-    @void testGetCities1() {
+    @Test
+    void testGetCities1() {
         CityList cityList = mockCityList();
 
         assertEquals(0, mockCity().compareTo(cityList.getCities().get(0)));
